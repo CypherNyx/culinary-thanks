@@ -1,0 +1,42 @@
+:root {
+  --main-bg: #FFBB5C;
+  --heading-bg: #410601;
+  --heading-txt: #672100;
+  --foreground: #E66201;
+  --highlight: #978300;
+
+}
+
+body {
+  background-color: var(--main-bg);
+  font-family: "Nunito", sans-serif;
+  color: var(--heading-txt);
+}
+
+nav {
+  background-color: var(--heading-bg);
+  padding: 1%;
+  color: #FFF;
+}
+
+#mainNavbar .navbar-brand {
+  color: var(--highlight);
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-right: 3rem;
+}
+
+#mainNavbar .navbar-brand span {
+  color: var(--foreground);
+}
+
+#navLinks>ul>li.nav-item>a {
+  color: var(--main-bg);
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+#navLinks>ul>li.nav-item>a:hover {
+  color: #cddc39;
+}
