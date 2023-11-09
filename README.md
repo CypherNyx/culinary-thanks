@@ -25,13 +25,16 @@ This project uses HTML, CSS, and Bootstrap to create a responsive and visually a
 ### [Deployed Page ➡️ >>](https://cyphernyx.github.io/culinary-thanks/)
 
 ### Screenshots
-- Landing Page:
+- Landing Page:<br>
 ![main](./assets/screencapture_top_page.png)
-- Mobile, Nav collapsed
+
+- Mobile, Nav collapsed<br>
 ![mobile1](./assets/screencapture_mobile_view.png)
-- Mobile, Expanded Nav
+
+- Mobile, Expanded Nav<br>
 ![mobile2](./assets/screencapture_mobile_navlinks.png)
--Full Screencapture - desktop version
+
+- Full Screencapture - desktop version<br>
 ![full screen](./assets/screencapture-cyphernyx-github-io-culinary-thanks-2023-11-09-11_31_54.png)
 
 ## Getting Started
