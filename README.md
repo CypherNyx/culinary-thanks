@@ -4,6 +4,7 @@
 
 This project uses HTML, CSS, and Bootstrap to create a responsive and visually appealing One page layout website. Inspired by Colt Steele's Museum of Candy project from the WDBC course.
 
+[Deployed Page >>](https://cyphernyx.github.io/culinary-thanks/)
 
 ## Attributions
 

@@ -14,10 +14,11 @@ body {
 }
 
 nav {
-  /* background-color: var(--heading-bg); */
+
   padding: 0 1%;
   color: #FFF;
 }
+
 
 #mainNavbar .navbar-brand {
   color: var(--highlight);
@@ -46,4 +47,17 @@ body>section>div>div>h2>span {
   color: white;
   padding: 0 0.5rem;
   font-weight: 800;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+p {
+  line-height: 2;
+}
+
+.navbar.scrolled {
+  background: #410601;
+  transition: background 500ms;
 }
