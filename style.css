@@ -65,6 +65,17 @@ p {
   line-height: 2;
 }
 
+footer{
+  background: var(--highlight);
+  margin-bottom: 0;
+  padding-bottom: 2px;
+}
+
+footer>p, footer>p>a{
+  line-height: normal;
+  color: #FFF;
+}
+
 .navbar.scrolled {
   background: #410601;
   transition: background 500ms;
@@ -79,3 +90,4 @@ p {
     margin-right: 0;
   }
 }
+
