@@ -14,8 +14,8 @@ body {
 }
 
 nav {
-  background-color: var(--heading-bg);
-  padding: 1%;
+  /* background-color: var(--heading-bg); */
+  padding: 0 1%;
   color: #FFF;
 }
 
@@ -32,11 +32,18 @@ nav {
 }
 
 #navLinks>ul>li.nav-item>a {
-  color: var(--main-bg);
+  color: var(--heading-bg);
   font-size: 1.2rem;
-  margin: 1rem;
+  margin: 0 1rem;
 }
 
 #navLinks>ul>li.nav-item>a:hover {
   color: #cddc39;
+}
+
+body>section>div>div>h2>span {
+  background: var(--foreground);
+  color: white;
+  padding: 0 0.5rem;
+  font-weight: 800;
 }
