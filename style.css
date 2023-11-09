@@ -14,9 +14,17 @@ body {
 }
 
 nav {
-
   padding: 0 1%;
   color: #FFF;
+  background: hsla(19, 100%, 20%, 1);
+
+  background: linear-gradient(90deg, hsla(19, 100%, 20%, 1) 0%, hsla(5, 97%, 13%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(19, 100%, 20%, 1) 0%, hsla(5, 97%, 13%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(19, 100%, 20%, 1) 0%, hsla(5, 97%, 13%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#672100", endColorstr="#410601", GradientType=1);
 }
 
 
@@ -33,7 +41,7 @@ nav {
 }
 
 #navLinks>ul>li.nav-item>a {
-  color: var(--heading-bg);
+  color: var(--main-bg);
   font-size: 1.2rem;
   margin: 0 1rem;
 }
@@ -60,4 +68,14 @@ p {
 .navbar.scrolled {
   background: #410601;
   transition: background 500ms;
+}
+
+@media (max-width: 982px) {
+  #mainNavbar .navbar-brand {
+    color: var(--highlight);
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-right: 0;
+  }
 }
