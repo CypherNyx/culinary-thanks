@@ -17,6 +17,7 @@ This project uses HTML, CSS, and Bootstrap to create a responsive and visually a
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
+- [Questions](#questions)
 
 ## Overview
 
